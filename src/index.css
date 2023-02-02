@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  
+}
+
+#root {
+  width: 100%;
+}
+
+/* Header Styling */
+.header {
+  background-color: #F55A5A;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.icon {
+  font-size: 1.5em;
+  padding-right: 7px;
+}
+
+.header p {
+  font-size: 1.1em;
+  padding: 18px 0;
+}
+
+
+/* Card Component Section */
+
+.card-components {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.card {
+  display: flex;
+  width: 500px;
+  margin: 7px 0;
+  padding: 15px;
+  border: 1px solid #f5f5f5;
+  border-radius: 10px;
+  color: #2B283A;
+}
+
+.coverImg {
+  width: 125px;
+  height: 168px;
+  border-radius: 10px;
+  margin-right: 20px;
+  box-shadow: 0px 4px 8px #9a9a9af5;
+}
+
+.location-section {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 7px;
+}
+
+#fa-icon{
+color: #F55A5A;
+padding-right: 4px;
+}
+
+.location {
+  font-size: 0.8em;
+  padding-right: 15px;
+}
+
+#map-url {
+  color: #918E9B;
+  font-size: 0.7em;
+}
+
+.description-section h2{
+  padding-bottom: 15px;
+}
+
+.date {
+  font-size: 0.8em;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.description {
+  font-size: 0.8em;
+}
+
+.spaceLetters {
+  letter-spacing: 1px;
+}
